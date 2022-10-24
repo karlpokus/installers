@@ -12,10 +12,11 @@ Mostly `$ *.sh ls|tag` but some sources are missing a listing function.
 
 # todos
 - [ ] check if even installed first
-- [ ] checksums
+- [ ] checksums (for those that include it)
 - [x] terragrunt
 - [x] terraform
 - [ ] jq https://github.com/stedolan/jq/releases
 - [ ] kubectl https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 - [x] gh cli https://github.com/cli/cli/releases
 - [x] go
+- [ ] option: ls | peco | install (add release list -L 100)
