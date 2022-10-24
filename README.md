@@ -15,9 +15,7 @@ Mostly `$ *.sh ls|tag` but some sources are missing a listing function.
 - [ ] checksums
 - [x] terragrunt
 - [x] terraform
-- [ ] do da git
 - [ ] jq https://github.com/stedolan/jq/releases
 - [ ] kubectl https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
-- [ ] gh cli https://github.com/cli/cli/releases
-- [ ] go
-- [ ] empty tmp after install
+- [x] gh cli https://github.com/cli/cli/releases
+- [x] go
