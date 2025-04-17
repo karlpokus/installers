@@ -13,8 +13,6 @@ fi
 FILE="go$VERSION.linux-amd64.tar.gz"
 URL="https://go.dev/dl/$FILE"
 
-echo "* installing go $VERSION"
-
 if test -e tmp/$FILE; then
   echo "file already downloaded"
 else
@@ -22,9 +20,6 @@ else
   curl -sSL $URL -o tmp/$FILE
 fi
 
-echo "old version $(go version | cut -d " " -f 3)"
-
 sudo rm -rf /usr/local/go > /dev/null && sudo tar -C /usr/local -xzf tmp/$FILE
 
-echo "new version $(go version | cut -d " " -f 3)"
-echo "* done"
+echo "go $(go version | cut -d " " -f 3) installed"
